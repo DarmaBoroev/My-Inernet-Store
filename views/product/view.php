@@ -36,7 +36,7 @@
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="product-information"><!--/product-information-->
-                                        <img src="/template/images/product-details/new.jpg" class="newarrival" alt="" />
+                                        <img src="<?php echo Product::getImage($product['id']); ?>" class="newarrival" alt="" />
                                         <h2><?php echo $product['name'];?></h2>
                                         <p>Код товара: <?php echo $product['code'];?></p>
                                         <span>
